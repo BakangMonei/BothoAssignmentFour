@@ -1,0 +1,38 @@
+CREATE TABLE `admin` (
+  `Username` varchar(20) NOT NULL,
+  `Password` varchar(45) NOT NULL,
+  PRIMARY KEY (`Username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+CREATE TABLE `bookings` (
+  `UserID` varchar(10) NOT NULL,
+  `FullName` varchar(45) NOT NULL,
+  `PhoneNumber` varchar(45) NOT NULL,
+  `Date` varchar(45) NOT NULL,
+  `Time` varchar(45) NOT NULL,
+  `Doctor` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+CREATE TABLE `doctors` (
+  `IDNumber` varchar(10) NOT NULL,
+  `Password` varchar(45) NOT NULL,
+  `FullName` varchar(45) NOT NULL,
+  `DOB` varchar(45) NOT NULL,
+  `Gender` varchar(45) NOT NULL,
+  `PhoneNumber` varchar(45) NOT NULL,
+  `Specialization` varchar(45) NOT NULL,
+  PRIMARY KEY (`IDNumber`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+
+CREATE TABLE `patients` (
+  `UserID` varchar(10) NOT NULL,
+  `Password` varchar(45) NOT NULL,
+  `FullName` varchar(45) NOT NULL,
+  `DOB` varchar(15) NOT NULL,
+  `Gender` varchar(45) NOT NULL,
+  `PhoneNumber` varchar(45) NOT NULL,
+  `Address` varchar(45) NOT NULL,
+  PRIMARY KEY (`UserID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

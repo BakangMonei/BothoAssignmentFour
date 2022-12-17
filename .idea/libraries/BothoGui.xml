@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="BothoGui">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/joda-time-2.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/protobuf-java-3.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/rs2xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JTattoo-1.6.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/datetime.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
